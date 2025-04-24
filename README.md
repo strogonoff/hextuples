@@ -78,10 +78,10 @@ Instead of making a distinction between Literal statements and NamedNode stateme
 
 _This document serves as a work in progress / draft specification_
 
-HexTuples-NDJSON is an [NDJSON](http://ndjson.org/) (Newline Delimited JSON) based HexTuples / RDF serialization format.
+HexTuples-NDJSON is an [NDJSON](https://github.com/ndjson/ndjson.js) (Newline Delimited JSON) based HexTuples / RDF serialization format.
 It is desgined to support streaming parsing and provide great performance in a JS context (i.e. the browser).
 
-- A valid HexTuples document MUST be serialized using [NDJSON](http://ndjson.org/)
+- A valid HexTuples document MUST be serialized using [NDJSON](https://github.com/ndjson/ndjson.js)
 - HexTuples-NDJSON MIME type: `application/hex+x-ndjson; charset=utf-8`
 - Each array MUST consist of six strings.
 - Each array represents one RDF statement / quad / triple
